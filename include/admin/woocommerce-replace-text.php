@@ -43,7 +43,7 @@ echo '<font face="Tahoma" size="3" color="#FF0000">لطفا تمامی موار�
 }
 }
 ?></center>	
-				<form class="uniform" name="news" method="post" action="?page=persian-world-add">
+				<form class="uniform" name="news" method="post" action="?page=persian-woocommerce-add">
 <table border="0" width="100%">
 	<tr>
 		<td>کلمه‌ی مورد نظر :</td>

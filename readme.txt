@@ -42,10 +42,14 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 
 
 == Changelog ==
+= 1.1 =
+* bug fixed
 = 1.0 =
 * First version
 
 == Upgrade Notice ==
+= 1.1 =
+* bug fixed
 = 1.0 =
 * First version
 

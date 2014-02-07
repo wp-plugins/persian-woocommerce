@@ -112,7 +112,7 @@ function group_link()
 						}
 					}
 		}
-		window.location = "admin.php?page=persian-world-edit&deleted="+id;
+		window.location = "admin.php?page=persian-woocommerce-edit&deleted="+id;
 }
 
 </script>
