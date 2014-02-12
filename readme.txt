@@ -21,11 +21,19 @@ This plugin extends the WooCommerce shop plugin with complete Persian(Farsi) lan
 * and...
 
 = Compatibility =
-* Woocommece 2.x
+* Woocommece 2.1.x
 * Wordpress 3.8.x
 
 = Support =
 *  [Persian Support in woocommerce.ir](http://woocommerce.ir/)
+
+= Fa =
+بسته فارسی ساز ووکامرس شما را قادر می سازد تا فروشگاه ساز ووکامرس را به فارسی تبدیل کنید.
+با نصب این بسته می توانید:
+- واحد پولی ریال و تومان را به واحد های پولی اضافه کنید
+- لیست استان های ایران را اضافه کنید
+- ووکامرس را به صورت کامل فارسی کنید
+- و...
 
 == Installation ==
 1. Upload `persian-woocommerce` folder to the `/wp-content/plugins/` directory
@@ -42,12 +50,16 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 
 
 == Changelog ==
+= 1.2 =
+* Compatibility with woocommerce 2.1.x
 = 1.1 =
 * bug fixed
 = 1.0 =
 * First version
 
 == Upgrade Notice ==
+= 1.2 =
+* Compatibility with woocommerce 2.1.x
 = 1.1 =
 * bug fixed
 = 1.0 =
