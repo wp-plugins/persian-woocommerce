@@ -50,6 +50,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 
 
 == Changelog ==
+= 1.3 =
+* سازگاری با ووکامرس 2.1.2
 = 1.2 =
 * Compatibility with woocommerce 2.1.x
 = 1.1 =
@@ -58,6 +60,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 * First version
 
 == Upgrade Notice ==
+= 1.3 =
+* سازگاری با ووکامرس 2.1.2
 = 1.2 =
 * Compatibility with woocommerce 2.1.x
 = 1.1 =

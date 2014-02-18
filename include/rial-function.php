@@ -1,12 +1,5 @@
 <?php
-/*
-Plugin Name: Rial Currency Woocommerce
-Plugin URI: http://woocommerce.ir/
-Description: با استفاده از این افزونه قادر هستید براحتی واحد پولی ریال را به واحد های پولی ووکامرس اضافه کنید
-Version: 1.2
-Author: Mohammad Majidi
-Author URI: http://woocommerce.ir
-*/
+
 
 
 add_filter( 'woocommerce_currencies', 'add_my_currency' );
