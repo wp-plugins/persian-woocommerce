@@ -61,8 +61,8 @@ class PersianWooommercPlugin {
 			$domains = array(
 
 				'woocommerce'                => array(
-					'i18n/languages/woocommerce-fa_IR.mo'       => 'woocommerce/fa_IR.mo',
-					'i18n/languages/woocommerce-admin-fa_IR.mo' => 'woocommerce/admin-fa_IR.mo'
+					WP_LANG_DIR.'/plugins/woocommerce-fa_IR.mo'       => 'woocommerce/fa_IR.mo',
+					WP_LANG_DIR.'/plugins/woocommerce-admin-fa_IR.mo' => 'woocommerce/admin-fa_IR.mo'
 				)
 			);
 

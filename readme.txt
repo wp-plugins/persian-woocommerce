@@ -5,7 +5,7 @@ Donate link: http://woocommerce.ir/donate.html
 plugin URI: http://www.woocommerce.ir/download.html
 Tags: woocommerce, persian woocommerce, woocommerce farsi, iran, iranian, rtl, fa_IR,states,iranian rials,iranian tomans, woocommerce.ir
 Requires at least: 3.0
-Tested up to: 3.8.1
+Tested up to: 4.0
 
 This plugin extends the WooCommerce shop plugin with complete Persian(Farsi) language packs
 
@@ -21,8 +21,8 @@ This plugin extends the WooCommerce shop plugin with complete Persian(Farsi) lan
 * and...
 
 = Compatibility =
-* Woocommece 2.1.x
-* Wordpress 3.8.x
+* Woocommece 2.2.x
+* Wordpress 4.x
 
 = Support =
 *  [Persian Support in woocommerce.ir](http://woocommerce.ir/)
@@ -50,6 +50,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 
 
 == Changelog ==
+= 1.4 =
+* سازگاری با ووکامرس 2.2
 = 1.3 =
 * سازگاری با ووکامرس 2.1.2
 = 1.2 =
@@ -60,6 +62,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 * First version
 
 == Upgrade Notice ==
+= 1.4 =
+* سازگاری با ووکامرس 2.2
 = 1.3 =
 * سازگاری با ووکامرس 2.1.2
 = 1.2 =
