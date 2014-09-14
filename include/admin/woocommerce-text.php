@@ -87,7 +87,7 @@ for ( $i = 1 ; $i <= $page_nums ; $i++ )
     if($_GET[p]==$i){
 	echo "<a 'style='COLOR: #008000;TEXT-DECORATION: none'><font style='padding: 1px ; text-align: center ; border: 1px solid #000000 ; width: 20px ; cursor: pointer' align='right'>&nbsp;".$i."&nbsp;</font>&nbsp;</a>" ;
 	}else{
-	echo "<a href='?page=persian-world-edit&p=".$i."' style='COLOR: #FF0000;TEXT-DECORATION: none'><font style='padding: 1px ; text-align: center ; width: 20px ; cursor: pointer' align='right'>&nbsp;".$i."&nbsp;</font>&nbsp;</a>" ;
+	echo "<a href='?page=persian-woocommerce-edit&p=".$i."' style='COLOR: #FF0000;TEXT-DECORATION: none'><font style='padding: 1px ; text-align: center ; width: 20px ; cursor: pointer' align='right'>&nbsp;".$i."&nbsp;</font>&nbsp;</a>" ;
     }
 	if( $i%27 == 0 ){
 	echo "<br>";
