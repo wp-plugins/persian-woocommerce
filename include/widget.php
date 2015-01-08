@@ -25,7 +25,7 @@ function woocommerce_persian_widget(){
 }
 function woocommerce_persian_widgetshow() {
 	
-	wp_add_dashboard_widget('woocommerce_persian_feed', 'آخرین اخبار و اطلاعیه های ووکامرس پارسی', 'woocommerce_persian_widget', 'wp98_widset_pw' );
+	wp_add_dashboard_widget('woocommerce_persian_feed', 'آخرین اخبار و اطلاعیه های ووکامرس پارسی', 'woocommerce_persian_widget', 'wooper_widset_pw' );
 
 }
 function woocommerce_persian_widgetoptions() {	
@@ -34,7 +34,7 @@ function woocommerce_persian_widgetoptions() {
 		$options = array();
 	return array_merge( $defaults, $options );
 }
-function wp98_widset_pw() {
+function wooper_widset_pw() {
 	$options = woocommerce_persian_widgetoptions();
 	if ( 'post' == strtolower($_SERVER['REQUEST_METHOD']) && isset( $_POST['widget_id'] ) && 'woocommerce_persian_feed' == $_POST['widget_id'] ) {
 		foreach ( array( 'posts_number' ) as $key )

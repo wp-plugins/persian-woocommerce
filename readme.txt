@@ -3,9 +3,9 @@ author: Persian Woocommerce
 author URI: http://www.woocommerce.ir/
 Donate link: http://woocommerce.ir/donate.html
 plugin URI: http://www.woocommerce.ir/download.html
-Tags: woocommerce, persian woocommerce, woocommerce farsi, iran, iranian, rtl, fa_IR,states,iranian rials,iranian tomans, woocommerce.ir
+Tags: woocommerce, persian woocommerce, woocommerce farsi, iran, iranian, rtl, fa_IR,states,iranian rials,iranian tomans, woocommerce.ir,affiliate, cart, checkout, commerce, configurable, digital, download, downloadable, e-commerce, ecommerce, inventory, reports, sales, sell, shipping, shop, shopping, stock, store, tax, variable, widgets, woothemes, wordpress ecommerce
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.2
 
 This plugin extends the WooCommerce shop plugin with complete Persian(Farsi) language packs
 
@@ -50,6 +50,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 
 
 == Changelog ==
+= 2.2.10 =
+* بروزرسانی تازه برای نسخه 2.2.10
 = 1.4 =
 * سازگاری با ووکامرس 2.2
 = 1.3 =
@@ -62,6 +64,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 * First version
 
 == Upgrade Notice ==
+= 2.2.10 =
+* بروزرسانی تازه برای نسخه 2.2.10
 = 1.4 =
 * سازگاری با ووکامرس 2.2
 = 1.3 =
