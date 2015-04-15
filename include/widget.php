@@ -29,7 +29,7 @@ function woocommerce_persian_widgetshow() {
 
 }
 function woocommerce_persian_widgetoptions() {	
-	$defaults = array( 'posts_number' => 3 );
+	$defaults = array( 'posts_number' => 5 );
 	if ( ( !$options = get_option( 'woocommerce_persian_feed' ) ) || !is_array($options) )
 		$options = array();
 	return array_merge( $defaults, $options );

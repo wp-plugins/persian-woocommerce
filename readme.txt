@@ -21,7 +21,7 @@ This plugin extends the WooCommerce shop plugin with complete Persian(Farsi) lan
 * and...
 
 = Compatibility =
-* Woocommece 2.2.x
+* Woocommece 2.3.x
 * Wordpress 4.x
 
 = Support =
@@ -50,6 +50,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 
 
 == Changelog ==
+= 2.3.7 =
+* فارسی سازی عبارات جدید برای ووکامرس 2.3.7
 = 2.2.10 =
 * بروزرسانی تازه برای نسخه 2.2.10
 = 1.4 =
@@ -64,6 +66,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 * First version
 
 == Upgrade Notice ==
+= 2.3.7 =
+* فارسی سازی عبارات جدید برای ووکامرس 2.3.7
 = 2.2.10 =
 * بروزرسانی تازه برای نسخه 2.2.10
 = 1.4 =
