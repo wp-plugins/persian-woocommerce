@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2015-03-18 12:39:45+00:00\n"
-"PO-Revision-Date: 2015-04-15 12:13+0330\n"
+"POT-Creation-Date: 2015-04-17 15:06:22+00:00\n"
+"PO-Revision-Date: 2015-05-08 16:09+0330\n"
 "Last-Translator: PersianScript TM <persianscript.ir@gmail.com>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/projects/p/woocommerce/language/fa_IR/)\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "خواهشمندیم یک مقدار کمتر از قیمت حقیقی �
 
 #: includes/admin/class-wc-admin-assets.php:180
 msgid "Are you sure you want to link all variations? This will create a new variation for each and every possible combination of variation attributes (max 50 per run)."
-msgstr "آیا شما مایل به ترکیب تمام متغیرها می باشید؟ در این حالت یک متغیر جدید که حاوی ترکیب تمامی مشخصات ممکن متغیرهاست، ایجاد میشود (در بیشترین حالت 50 بار در هر اجرا)"
+msgstr "آیا شما مایل به ترکیب تمام متغیرها می باشید؟ در این حالت یک متغیر جدید که حاوی ترکیب تمامی مشخصات ممکن متغیرهاست، ساخته میشود (در بیشترین حالت 50 بار در هر اجرا)"
 
 #: includes/admin/class-wc-admin-assets.php:181
 msgid "Enter a value"
@@ -71,7 +71,7 @@ msgstr "انتخاب تصویر"
 
 #: includes/admin/class-wc-admin-assets.php:186
 msgid "Set variation image"
-msgstr "انتخاب تصویر تغییرپذیر"
+msgstr "انتخاب تصویر متغییر"
 
 #: includes/admin/class-wc-admin-assets.php:187
 msgid "variation added"
@@ -101,7 +101,7 @@ msgstr "تاریخ پایان فروش ( روز- ماه - سال یا خالی �
 #: includes/admin/class-wc-admin-assets.php:313
 #: includes/admin/settings/views/html-webhooks-edit.php:50
 msgid "Select an option&hellip;"
-msgstr "انتخاب یک تنظیم"
+msgstr "انتخاب کنید"
 
 #: includes/admin/class-wc-admin-assets.php:213
 msgid "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this order was submitted by a customer, you will need to manually restore the item's stock."
@@ -207,7 +207,7 @@ msgstr "بارگیری اطلاعات ارسال مشتری؟ این گزینه 
 
 #: includes/admin/class-wc-admin-assets.php:233
 #: includes/admin/class-wc-admin-post-types.php:122
-#: includes/admin/class-wc-admin-post-types.php:1956
+#: includes/admin/class-wc-admin-post-types.php:1964
 #: includes/admin/views/html-bulk-edit-product.php:197
 #: includes/admin/views/html-quick-edit-product.php:155
 msgid "Featured"
@@ -355,7 +355,7 @@ msgstr "قوانین"
 #: includes/admin/class-wc-admin-attributes.php:366
 #: includes/admin/class-wc-admin-post-types.php:212
 #: includes/admin/class-wc-admin-post-types.php:368
-#: includes/admin/class-wc-admin-post-types.php:1960
+#: includes/admin/class-wc-admin-post-types.php:1968
 #: includes/admin/class-wc-admin-webhooks-table-list.php:99
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:232
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:312
@@ -577,7 +577,7 @@ msgstr "گزارش فروش ها"
 
 #: includes/admin/class-wc-admin-menus.php:77
 msgid "WooCommerce Settings"
-msgstr "تنظیمات ووکامرس"
+msgstr "پیکربندی ووکامرس"
 
 #: includes/admin/class-wc-admin-menus.php:77
 #: includes/admin/class-wc-admin-welcome.php:218
@@ -585,7 +585,7 @@ msgstr "تنظیمات ووکامرس"
 #: includes/admin/settings/class-wc-settings-shipping.php:236
 #: includes/admin/views/html-admin-page-status-report.php:383
 msgid "Settings"
-msgstr "تنظیمات"
+msgstr "پیکربندی"
 
 #: includes/admin/class-wc-admin-menus.php:102
 #: includes/admin/views/html-admin-page-addons.php:20
@@ -628,11 +628,11 @@ msgstr "%s داده"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:113
 msgid "%s Items"
-msgstr "%s ایتم"
+msgstr "ایتم های %s"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:114
 msgid "%s Notes"
-msgstr "%s یادداشت"
+msgstr "یادداشت های %s"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:115
 msgid "Downloadable Product Permissions"
@@ -677,7 +677,7 @@ msgstr "پایگاه ویژگی‌های محصول"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:96
 msgid "These settings control the permalinks used for products. These settings only apply when <strong>not using \"default\" permalinks above</strong>."
-msgstr "این تنظیمات برای کنترل پیوند یکتای محصولات است. این تنظیمات فقط وقتی که شما از پیوندهای یکتای «پیشفرض» استفاده <strong>نمی‌کنید</strong> اعمال می‌شوند."
+msgstr "این پیکربندی برای کنترل پیوند یکتای محصولات است. این پیکربندی فقط وقتی که شما از پیوندهای یکتای «پیشفرض» استفاده <strong>نمی‌کنید</strong> اعمال می‌شوند."
 
 #: includes/admin/class-wc-admin-permalink-settings.php:116
 #: includes/admin/class-wc-admin-taxonomies.php:91
@@ -898,7 +898,7 @@ msgstr "نمایش"
 #: includes/admin/reports/class-wc-report-stock.php:131
 #: includes/admin/views/html-admin-page-status-logs.php:24
 msgid "View"
-msgstr "مشاهده "
+msgstr "نمایش "
 
 #: includes/admin/class-wc-admin-post-types.php:282
 msgid "Grouped"
@@ -1091,49 +1091,49 @@ msgstr "نمایش همه"
 msgid "Search for a customer&hellip;"
 msgstr "جستجو برای یک خریدار&hellip;"
 
-#: includes/admin/class-wc-admin-post-types.php:1675
+#: includes/admin/class-wc-admin-post-types.php:1683
 msgid "Product updated. <a href=\"%s\">View Product</a>"
 msgstr "محصول به‌روزرسانی شد. <a href=\"%s\">نمایش محصول</a>"
-
-#: includes/admin/class-wc-admin-post-types.php:1676
-#: includes/admin/class-wc-admin-post-types.php:1691
-#: includes/admin/class-wc-admin-post-types.php:1707
-msgid "Custom field updated."
-msgstr "زمینه‌دلخواه به‌روز‌رسانی شد."
-
-#: includes/admin/class-wc-admin-post-types.php:1677
-#: includes/admin/class-wc-admin-post-types.php:1692
-#: includes/admin/class-wc-admin-post-types.php:1708
-msgid "Custom field deleted."
-msgstr "زمینه‌دلخواه پاک شد."
-
-#: includes/admin/class-wc-admin-post-types.php:1678
-msgid "Product updated."
-msgstr "محصول به‌روزرسانی شد."
-
-#: includes/admin/class-wc-admin-post-types.php:1679
-msgid "Product restored to revision from %s"
-msgstr "محصول از %s برای بازبینی پس گرفته شد"
-
-#: includes/admin/class-wc-admin-post-types.php:1680
-msgid "Product published. <a href=\"%s\">View Product</a>"
-msgstr "محصول منتشر شد. <a href=\"%s\">نمایش محصول</a>"
-
-#: includes/admin/class-wc-admin-post-types.php:1681
-msgid "Product saved."
-msgstr "محصول ذخیره شد."
-
-#: includes/admin/class-wc-admin-post-types.php:1682
-msgid "Product submitted. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
-msgstr "محصول ارسال شد. <a target=\"_blank\" href=\"%s\">پیش‌نمایش محصول</a>"
-
-#: includes/admin/class-wc-admin-post-types.php:1683
-msgid "Product scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Product</a>"
-msgstr "ارسال محصول زمان‌بندی شد برای:‌<strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">پیش‌نمایش محصول</a>"
 
 #: includes/admin/class-wc-admin-post-types.php:1684
 #: includes/admin/class-wc-admin-post-types.php:1699
 #: includes/admin/class-wc-admin-post-types.php:1715
+msgid "Custom field updated."
+msgstr "زمینه‌دلخواه به‌روز‌رسانی شد."
+
+#: includes/admin/class-wc-admin-post-types.php:1685
+#: includes/admin/class-wc-admin-post-types.php:1700
+#: includes/admin/class-wc-admin-post-types.php:1716
+msgid "Custom field deleted."
+msgstr "زمینه‌دلخواه پاک شد."
+
+#: includes/admin/class-wc-admin-post-types.php:1686
+msgid "Product updated."
+msgstr "محصول به‌روزرسانی شد."
+
+#: includes/admin/class-wc-admin-post-types.php:1687
+msgid "Product restored to revision from %s"
+msgstr "محصول از %s برای بازبینی پس گرفته شد"
+
+#: includes/admin/class-wc-admin-post-types.php:1688
+msgid "Product published. <a href=\"%s\">View Product</a>"
+msgstr "محصول منتشر شد. <a href=\"%s\">نمایش محصول</a>"
+
+#: includes/admin/class-wc-admin-post-types.php:1689
+msgid "Product saved."
+msgstr "محصول ذخیره شد."
+
+#: includes/admin/class-wc-admin-post-types.php:1690
+msgid "Product submitted. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
+msgstr "محصول ارسال شد. <a target=\"_blank\" href=\"%s\">پیش‌نمایش محصول</a>"
+
+#: includes/admin/class-wc-admin-post-types.php:1691
+msgid "Product scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Product</a>"
+msgstr "ارسال محصول زمان‌بندی شد برای:‌<strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">پیش‌نمایش محصول</a>"
+
+#: includes/admin/class-wc-admin-post-types.php:1692
+#: includes/admin/class-wc-admin-post-types.php:1707
+#: includes/admin/class-wc-admin-post-types.php:1723
 #: includes/admin/settings/views/html-webhook-log.php:10
 #: includes/admin/settings/views/html-webhooks-edit.php:126
 #: includes/admin/settings/views/html-webhooks-edit.php:135
@@ -1141,129 +1141,129 @@ msgstr "ارسال محصول زمان‌بندی شد برای:‌<strong>%1$s<
 msgid "M j, Y @ G:i"
 msgstr "M j, Y @ G:i"
 
-#: includes/admin/class-wc-admin-post-types.php:1685
+#: includes/admin/class-wc-admin-post-types.php:1693
 msgid "Product draft updated. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
 msgstr "پیش‌نویس محصول به‌روزرسانی شد. <a target=\"_blank\" href=\"%s\">پیش‌نمایش محصول</a>"
 
-#: includes/admin/class-wc-admin-post-types.php:1690
-#: includes/admin/class-wc-admin-post-types.php:1693
-#: includes/admin/class-wc-admin-post-types.php:1695
+#: includes/admin/class-wc-admin-post-types.php:1698
+#: includes/admin/class-wc-admin-post-types.php:1701
+#: includes/admin/class-wc-admin-post-types.php:1703
 msgid "Order updated."
 msgstr "سفارش به روز شد."
 
-#: includes/admin/class-wc-admin-post-types.php:1694
+#: includes/admin/class-wc-admin-post-types.php:1702
 msgid "Order restored to revision from %s"
 msgstr "سفارش از %s برای بازبینی پس گرفته شد"
 
-#: includes/admin/class-wc-admin-post-types.php:1696
+#: includes/admin/class-wc-admin-post-types.php:1704
 msgid "Order saved."
 msgstr "سفارش ذخیره شد."
 
-#: includes/admin/class-wc-admin-post-types.php:1697
+#: includes/admin/class-wc-admin-post-types.php:1705
 msgid "Order submitted."
 msgstr "سفارش گذاشته شد"
 
-#: includes/admin/class-wc-admin-post-types.php:1698
+#: includes/admin/class-wc-admin-post-types.php:1706
 msgid "Order scheduled for: <strong>%1$s</strong>."
 msgstr "سفارش زمان‌بندی شد برای : <strong>%1$s</strong>."
 
-#: includes/admin/class-wc-admin-post-types.php:1700
+#: includes/admin/class-wc-admin-post-types.php:1708
 msgid "Order draft updated."
 msgstr "پیش‌نویس سفارش به‌روز‌رسانی شد."
 
-#: includes/admin/class-wc-admin-post-types.php:1701
+#: includes/admin/class-wc-admin-post-types.php:1709
 msgid "Order updated and email sent."
 msgstr "سفارش بروزرسانی شد و ایمیل فرستاده شد."
 
-#: includes/admin/class-wc-admin-post-types.php:1706
-#: includes/admin/class-wc-admin-post-types.php:1709
-#: includes/admin/class-wc-admin-post-types.php:1711
+#: includes/admin/class-wc-admin-post-types.php:1714
+#: includes/admin/class-wc-admin-post-types.php:1717
+#: includes/admin/class-wc-admin-post-types.php:1719
 msgid "Coupon updated."
 msgstr "کوپن به روز شد."
 
-#: includes/admin/class-wc-admin-post-types.php:1710
+#: includes/admin/class-wc-admin-post-types.php:1718
 msgid "Coupon restored to revision from %s"
 msgstr "کوپن برای تجدیدنظر از %s بازیابی شد."
 
-#: includes/admin/class-wc-admin-post-types.php:1712
+#: includes/admin/class-wc-admin-post-types.php:1720
 msgid "Coupon saved."
 msgstr "کوپن‌ها"
 
-#: includes/admin/class-wc-admin-post-types.php:1713
+#: includes/admin/class-wc-admin-post-types.php:1721
 msgid "Coupon submitted."
 msgstr "کوپن ارایه شد."
 
-#: includes/admin/class-wc-admin-post-types.php:1714
+#: includes/admin/class-wc-admin-post-types.php:1722
 msgid "Coupon scheduled for: <strong>%1$s</strong>."
 msgstr "کوپن برای <strong>%1$s</strong> برنامه‌ریزی شد."
 
-#: includes/admin/class-wc-admin-post-types.php:1716
+#: includes/admin/class-wc-admin-post-types.php:1724
 msgid "Coupon draft updated."
 msgstr "پیش‌نویس کوپن به‌روزرسانی شد."
 
-#: includes/admin/class-wc-admin-post-types.php:1889
+#: includes/admin/class-wc-admin-post-types.php:1897
 msgid "Product name"
 msgstr "نام محصول"
 
-#: includes/admin/class-wc-admin-post-types.php:1892
+#: includes/admin/class-wc-admin-post-types.php:1900
 msgid "Coupon code"
 msgstr "كد تخفيف:"
 
-#: includes/admin/class-wc-admin-post-types.php:1907
+#: includes/admin/class-wc-admin-post-types.php:1915
 msgid "Description (optional)"
 msgstr "توضیحات (دلخواه)"
 
-#: includes/admin/class-wc-admin-post-types.php:1924
+#: includes/admin/class-wc-admin-post-types.php:1932
 msgid "Insert into %s"
 msgstr "وارد کردن در %s"
 
-#: includes/admin/class-wc-admin-post-types.php:1925
+#: includes/admin/class-wc-admin-post-types.php:1933
 msgid "Uploaded to this %s"
 msgstr "آپلود شده در این %s"
 
-#: includes/admin/class-wc-admin-post-types.php:1945
+#: includes/admin/class-wc-admin-post-types.php:1953
 msgid "Catalog/search"
 msgstr "کاتالوگ/جستجو"
 
-#: includes/admin/class-wc-admin-post-types.php:1946
+#: includes/admin/class-wc-admin-post-types.php:1954
 #: includes/admin/views/html-bulk-edit-product.php:185
 #: includes/admin/views/html-quick-edit-product.php:142
 msgid "Catalog"
 msgstr "فهرست"
 
-#: includes/admin/class-wc-admin-post-types.php:1947
+#: includes/admin/class-wc-admin-post-types.php:1955
 #: includes/admin/views/html-bulk-edit-product.php:186
 #: includes/admin/views/html-quick-edit-product.php:143
 msgid "Search"
 msgstr "جستجو"
 
-#: includes/admin/class-wc-admin-post-types.php:1948
+#: includes/admin/class-wc-admin-post-types.php:1956
 #: includes/admin/views/html-bulk-edit-product.php:187
 #: includes/admin/views/html-quick-edit-product.php:144
 msgid "Hidden"
 msgstr "مخفي"
 
-#: includes/admin/class-wc-admin-post-types.php:1952
+#: includes/admin/class-wc-admin-post-types.php:1960
 msgid "Catalog visibility:"
 msgstr "قابلیت دیدن کاتالوگ:"
 
-#: includes/admin/class-wc-admin-post-types.php:1968
+#: includes/admin/class-wc-admin-post-types.php:1976
 msgid "Define the loops this product should be visible in. The product will still be accessible directly."
 msgstr "حلقه‌هایی که این محصول باید در آن‌ها نمایش داده بشوند. این محصول به صورت مستقیم قابل دسترسی است."
 
-#: includes/admin/class-wc-admin-post-types.php:1974
+#: includes/admin/class-wc-admin-post-types.php:1982
 msgid "Enable this option to feature this product."
 msgstr "برای ویژه کردن محصول این گزینه را فعال کنید."
 
-#: includes/admin/class-wc-admin-post-types.php:1976
+#: includes/admin/class-wc-admin-post-types.php:1984
 msgid "Featured Product"
 msgstr "محصولات برجسته"
 
-#: includes/admin/class-wc-admin-post-types.php:1979
+#: includes/admin/class-wc-admin-post-types.php:1987
 msgid "OK"
 msgstr "تایید"
 
-#: includes/admin/class-wc-admin-post-types.php:1980
+#: includes/admin/class-wc-admin-post-types.php:1988
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:175
 #: includes/admin/meta-boxes/views/html-order-items.php:243
 #: includes/admin/meta-boxes/views/html-order-items.php:289
@@ -1456,15 +1456,15 @@ msgstr "مالیات بر اساس تاریخ"
 #: includes/admin/class-wc-admin-settings.php:58
 #: includes/admin/class-wc-admin-webhooks.php:123
 msgid "Action failed. Please refresh the page and retry."
-msgstr "عملیات ناموفق، خواهشمندیم صفحه را دوباره بارگذاری نمایید"
+msgstr "عملیات ناموفق، خواهشمندیم برگه را دوباره بارگذاری نمایید"
 
 #: includes/admin/class-wc-admin-settings.php:69
 msgid "Your settings have been saved."
-msgstr "تنظیمات شما ذخیره شد . "
+msgstr "پیکربندی شما ذخیره شد . "
 
 #: includes/admin/class-wc-admin-settings.php:127
 msgid "The changes you made will be lost if you navigate away from this page."
-msgstr "درصورت خارج شدن از این صفحه تغییرات ذخیره نخواهند شد."
+msgstr "درصورت خارج شدن از این برگه تغییرات ذخیره نخواهند شد."
 
 #: includes/admin/class-wc-admin-settings.php:496
 msgid "The settings of this image size have been disabled because its values are being overwritten by a filter."
@@ -1498,11 +1498,11 @@ msgstr "انتخاب هیچکدام"
 
 #: includes/admin/class-wc-admin-status.php:50
 msgid "Product Transients Cleared"
-msgstr "Transient های محصول پاک شدند."
+msgstr "نشست های محصول پاک شدند."
 
 #: includes/admin/class-wc-admin-status.php:91
 msgid "%d Transients Rows Cleared"
-msgstr "%d ردیف از Transient ها پاک شدند."
+msgstr "%d ردیف از نشست ها پاک شدند."
 
 #: includes/admin/class-wc-admin-status.php:99
 msgid "Roles successfully reset"
@@ -1514,7 +1514,7 @@ msgstr "دوره‌ها با موفقیت بازشماری شدند."
 
 #: includes/admin/class-wc-admin-status.php:122
 msgid "Sessions successfully cleared"
-msgstr "سشن مشتری با موفقیت پاک شد"
+msgstr "نشست مشتری با موفقیت پاک شد"
 
 #: includes/admin/class-wc-admin-status.php:126
 msgid "All missing WooCommerce pages was installed successfully."
@@ -1560,31 +1560,31 @@ msgstr "برگردان برپاسازی شد/بروزرسانی پایان یا�
 
 #: includes/admin/class-wc-admin-status.php:184
 msgid "Your changes have been saved."
-msgstr "تنظیمات شما ذخیره شد . "
+msgstr "پیکربندی شما ذخیره شد . "
 
 #: includes/admin/class-wc-admin-status.php:197
 msgid "WC Transients"
-msgstr "Transientهای ووکامرس"
+msgstr "نشست های ووکامرس"
 
 #: includes/admin/class-wc-admin-status.php:198
 msgid "Clear transients"
-msgstr "پاک‌کردن Transient ها"
+msgstr "پاک‌کردن نشست ها"
 
 #: includes/admin/class-wc-admin-status.php:199
 msgid "This tool will clear the product/shop transients cache."
-msgstr "این ابزار کش Transientهای محصول/فروشگاه را پاک میکند."
+msgstr "این ابزار کش نشست های محصول/فروشگاه را پاک میکند."
 
 #: includes/admin/class-wc-admin-status.php:202
 msgid "Expired Transients"
-msgstr "Transientهای منقضی شده"
+msgstr "نشست های منقضی شده"
 
 #: includes/admin/class-wc-admin-status.php:203
 msgid "Clear expired transients"
-msgstr "پاک کردن Transientهای منقضی"
+msgstr "پاک کردن نشست های منقضی"
 
 #: includes/admin/class-wc-admin-status.php:204
 msgid "This tool will clear ALL expired transients from WordPress."
-msgstr "این ابزار تمامی Transient های منقضی شده را پاک میکند."
+msgstr "این ابزار تمامی نشست های منقضی شده را پاک میکند."
 
 #: includes/admin/class-wc-admin-status.php:207
 msgid "Term counts"
@@ -1596,15 +1596,15 @@ msgstr "بازشماری دوره‌ها"
 
 #: includes/admin/class-wc-admin-status.php:209
 msgid "This tool will recount product terms - useful when changing your settings in a way which hides products from the catalog."
-msgstr "این ابزار دوره‌های محصولات را دوباره می‌شمارد - مواقعی که تنظیمات را تغییر می‌دهید در زمانی که محصولاتی را از کاتالوگ پنهان میکنید به کار می‌آید."
+msgstr "این ابزار دوره‌های محصولات را دوباره می‌شمارد - مواقعی که پیکربندی را تغییر می‌دهید در زمانی که محصولاتی را از کاتالوگ پنهان میکنید به کار می‌آید."
 
 #: includes/admin/class-wc-admin-status.php:212
 msgid "Capabilities"
-msgstr "قابلیت‌ها"
+msgstr "نقش ها"
 
 #: includes/admin/class-wc-admin-status.php:213
 msgid "Reset capabilities"
-msgstr "تنظیم مجدد قابلیت‌ها"
+msgstr "بازنشانی دوباره نقش ها"
 
 #: includes/admin/class-wc-admin-status.php:214
 msgid "This tool will reset the admin, customer and shop_manager roles to default. Use this if your users cannot access all of the WooCommerce admin pages."
@@ -1612,11 +1612,11 @@ msgstr "این ابزار نقش‌های ادمین، مشتری و مدیری�
 
 #: includes/admin/class-wc-admin-status.php:217
 msgid "Customer Sessions"
-msgstr "سشن مشتری"
+msgstr "نشست مشتری"
 
 #: includes/admin/class-wc-admin-status.php:218
 msgid "Clear all sessions"
-msgstr "پاک کردن همه سشن ها"
+msgstr "پاک کردن همه نشست ها"
 
 #: includes/admin/class-wc-admin-status.php:219
 msgid "<strong class=\"red\">Warning:</strong> This tool will delete all customer session data from the database, including any current live carts."
@@ -1633,7 +1633,7 @@ msgstr "نصب برگه‌های ووکامرس"
 
 #: includes/admin/class-wc-admin-status.php:224
 msgid "<strong class=\"red\">Note:</strong> This tool will install all the missing WooCommerce pages. Pages already defined and set up will not be replaced."
-msgstr "<strong class=\"red\">پیغام</strong> این برگه می تواند تمامی برگه های از دست رفته ووکامرس را مجددا نصب نماید. صفحاتی که قبلا وجود داشته اند جایگزین نمی شوند"
+msgstr "<strong class=\"red\">پیغام</strong> این ابزار می تواند تمامی برگه های از دست رفته ووکامرس را دوباره نصب کند. برگه هایی که از پیش بوده اند، جایگزین نمی شوند."
 
 #: includes/admin/class-wc-admin-status.php:227
 msgid "Delete all WooCommerce tax rates"
@@ -1717,7 +1717,7 @@ msgstr "استفاده از تصویر"
 
 #: includes/admin/class-wc-admin-taxonomies.php:265
 msgid "Product categories for your store can be managed here. To change the order of categories on the front-end you can drag and drop to sort them. To see more categories listed click the \"screen options\" link at the top of the page."
-msgstr "دسته‌های محصولات شما از اینجا می‌توانند مدیریت شوند. برای تغییر ترتیب دسته‌ها برای نمایش به کاربران می‌توانید با کشیدن و رها کردن ( drag & drop ) دسته‌ها را مرتب‌سازی کنید. برای دیدن لیست دسته‌های بیشتر روی «تنظیمات صفحه» در بالای برگه کلیک کنید."
+msgstr "دسته‌های محصولات شما از اینجا می‌توانند مدیریت شوند. برای تغییر ترتیب دسته‌ها برای نمایش به کاربران می‌توانید با کشیدن و رها کردن ( drag & drop ) دسته‌ها را مرتب‌سازی کنید. برای دیدن لیست دسته‌های بیشتر روی «پیکربندی برگه» در بالای برگه کلیک کنید."
 
 #: includes/admin/class-wc-admin-taxonomies.php:272
 msgid "Shipping classes can be used to group products of similar type. These groups can then be used by certain shipping methods to provide different rates to different products."
@@ -1853,7 +1853,7 @@ msgstr "بهسازی رابط کاربری بخش مدیریت"
 
 #: includes/admin/class-wc-admin-welcome.php:259
 msgid "On the backend, settings have been re-organised and perform better on hand-held devices for an all round improved user experience. "
-msgstr "در بخش مدیریتی، تنظیمات دوباره سازماندهای شده اند و در دستگاههای همراه برای کاربران حرفه ای عملکرد بهتری دارند."
+msgstr "در بخش مدیریتی، پیکربندی دوباره سازماندهای شده اند و در دستگاههای همراه برای کاربران حرفه ای عملکرد بهتری دارند."
 
 #: includes/admin/class-wc-admin-welcome.php:262
 msgid "Webhooks UI"
@@ -1877,7 +1877,7 @@ msgstr "پیکربندی رنگ"
 
 #: includes/admin/class-wc-admin-welcome.php:276
 msgid "If you're looking to customise the look and feel of the frontend in 2.3, take a look at the free %sWooCommerce Colors plugin%s. This lets you change the colors with a live preview."
-msgstr ""
+msgstr "اگر به دنبال سفارشی کردن نمای سایت و تغییرات در بخش کاربری نگارش 2.3 هستید، افزونه رایگان %sWooCommerce Colors plugin%s را بکار ببرید. این افزونه به شما توانایی تغییر رنگ با پیشنمایش را می دهد."
 
 #: includes/admin/class-wc-admin-welcome.php:279
 msgid "Improved Reports"
@@ -1885,7 +1885,7 @@ msgstr "گزارش ها بهبود شدند"
 
 #: includes/admin/class-wc-admin-welcome.php:280
 msgid "Sales reports can now show net and gross amounts, we've added a print stylesheet, and added extra data on refunds to reports."
-msgstr ""
+msgstr "گزارش های فروش هم اکنون می تواند میزان خالص و ناخالص را نمایش دهد، ما استایل چاپ، و همچنین داده های زیادی در برگشتی ها به گزارش افزوده ایم."
 
 #: includes/admin/class-wc-admin-welcome.php:285
 msgid "Improved Simplify Gateway"
@@ -1893,7 +1893,7 @@ msgstr "دروازه پرداخت Simplify بهبود یافت"
 
 #: includes/admin/class-wc-admin-welcome.php:286
 msgid "The built in Simplify Commerce Gateway (available in the US) now supports %sHosted Payments%s - a PCI Compliant hosted payment platform."
-msgstr ""
+msgstr "درگاه ساخته شده سیمپلیفای کامرس ( دسترسی در آمریکا) هم اکنون %sHosted Payments%s را پشتیبانی می کند - یک پلتفورم پرداخت میزبانی، سازگار شده با PCI"
 
 #: includes/admin/class-wc-admin-welcome.php:289
 msgid "Email Template Improvements"
@@ -1901,7 +1901,7 @@ msgstr "بهسازی الگوهای ایمیل"
 
 #: includes/admin/class-wc-admin-welcome.php:290
 msgid "To make email customization simpler, we've included a CSS Inliner in this release, some new template files for styling emails, and some additional hooks for developers. Read more on our %sdeveloper blog%s."
-msgstr ""
+msgstr "برای سفارشی سازی ساده تر ایمیل، Inliner CSS را در این نگارش گنجانده ایم، همچنین برخی فایل های جدید الگو برای استایل ایمیل ها، و برخی هوک های افزوده برای برنامه نویسان، افزوده شده است. برای خواندن بیشتربه %sdeveloper blog%s بروید."
 
 #: includes/admin/class-wc-admin-welcome.php:293
 msgid "Simplified Coupon System"
@@ -1909,11 +1909,11 @@ msgstr "سیستم کوپن ساده سازی شده است."
 
 #: includes/admin/class-wc-admin-welcome.php:294
 msgid "We have simplified the coupon system to ensure discounts are never applied to taxes, and we've improved support for discounting products inclusive of tax. Read more on our %sdevelop blog%s."
-msgstr ""
+msgstr "ما سیستم کوپن را ساده تر کرده ایم تا مطمئن شوید که تخفیف ها شامل بر روی مالیات اعمال نمی شود،  ما پشتیبانی از تخقفیف محصولات از جمله مالیات را بهبود داده ایم. برای خواندن بیشتر به %sdevelop blog%s بروید."
 
 #: includes/admin/class-wc-admin-welcome.php:302
 msgid "Go to WooCommerce Settings"
-msgstr "رفتن به تنظیمات ووکامرس "
+msgstr "رفتن به پیکربندی ووکامرس "
 
 #: includes/admin/class-wc-admin-welcome.php:317
 msgid "WooCommerce is developed and maintained by a worldwide team of passionate individuals and backed by an awesome developer community. Want to see your name? <a href=\"%s\">Contribute to WooCommerce</a>."
@@ -1925,7 +1925,7 @@ msgstr "هم اکنون ووکامرس به زبان فارسی موجود می 
 
 #: includes/admin/class-wc-admin-welcome.php:381
 msgid "View %s"
-msgstr "مشاهده %s"
+msgstr "نمایش %s"
 
 #: includes/admin/class-wc-admin.php:123
 msgid "HTML Email Template"
@@ -1933,7 +1933,7 @@ msgstr "ویرایش قالب ایمیل HTML"
 
 #: includes/admin/class-wc-admin.php:168
 msgid "If you like <strong>WooCommerce</strong> please leave us a %s&#9733;&#9733;&#9733;&#9733;&#9733;%s rating. A huge thank you from WooThemes in advance!"
-msgstr "اگر شما <strong>ووکامرس</strong> را دوست دارید لطفا به ما <a href=\"%1$s\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> امتیاز دهید. هم اکنون<a href=\"%1$s\" target=\"_blank\">WordPress.org</a>را بررسی کنید . پیشاپیش از شما سپاسگذاریم!"
+msgstr "اگر <strong>ووکامرس</strong> را دوست داشتید لطفا به ما %s&#9733;&#9733;&#9733;&#9733;&#9733;%s  امتیاز دهید. از شما سپاسگذاریم"
 
 #: includes/admin/class-wc-admin.php:168
 msgid "Thanks :)"
@@ -2032,7 +2032,7 @@ msgstr "اجازه حمل و نقل رایگان"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:71
 msgid "Check this box if the coupon grants free shipping. The <a href=\"%s\">free shipping method</a> must be enabled and be set to require \"a valid free shipping coupon\" (see the \"Free Shipping Requires\" setting)."
-msgstr ""
+msgstr "تیک زدن این جعبه، کوپن حمل و نقل رایگان می دهد. <a href=\"%s\">روش حمل و نقل رایگان</a> باید فعال شود و نیاز به تنظیم \"یک کوپن حمل و نقل رایگان معتبر\" دارد. (به پیکربندی \" نیازهای حمل و نقل\" بروید)."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:74
 msgid "Coupon expiry date"
@@ -2079,7 +2079,7 @@ msgid "Check this box if the coupon should not apply to items on sale. Per-item 
 msgstr "اگر نمیخواهدی کوپن برای اقلام در حال فروش استفاده نشود، این باکس را پر کنید."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:100
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:116
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:118
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:478
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:493
 #: includes/admin/meta-boxes/views/html-order-items.php:305
@@ -2087,79 +2087,79 @@ msgstr "اگر نمیخواهدی کوپن برای اقلام در حال فر�
 msgid "Search for a product&hellip;"
 msgstr "جستجو برای یک محصول&hellip;"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:110
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:112
 msgid "Products which need to be in the cart to use this coupon or, for \"Product Discounts\", which products are discounted."
 msgstr "محصولاتی که برای استفاده از این کوپن نیاز هست در سبد خرید باشند و یا، محصولاتی که شامل تخفیف می‌شوند"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:115
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:117
 msgid "Exclude products"
 msgstr "به جز این محصولات"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:126
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:130
 msgid "Products which must not be in the cart to use this coupon or, for \"Product Discounts\", which products are not discounted."
 msgstr "محصولاتی که برای استفاده از این کوپن نیاز هست در سبد خرید شما وجود ندارد و یا این محصولات شما شامل تخفیف نمی‌شوند."
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:133
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:137
 msgid "Product categories"
 msgstr "دسته های محصولات"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:134
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:138
 msgid "Any category"
 msgstr "هر دسته‌بندی"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:143
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:147
 msgid "A product must be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will be discounted."
 msgstr "یک محصول باید در این دسته باشد تا کوپن تخفیف قابل استفاده بماند و یا محصولات این دسته شامل تخفیف خواهند شد."
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:148
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:152
 msgid "Exclude categories"
 msgstr "به جز این دسته ها"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:149
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:153
 msgid "No categories"
 msgstr "فاقد دسته بندی ها"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:158
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:162
 msgid "Product must not be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will not be discounted."
 msgstr "محصولاتی که برای استفاده از این کوپن نیاز هست در سبد خرید شما وجود ندارد و یا این محصولات شما شامل تخفیف نمی‌شوند."
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:164
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:168
 msgid "Email restrictions"
 msgstr "محدودیت‌های ایمیل"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:164
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:168
 msgid "No restrictions"
 msgstr "بدون محدودیت"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:164
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:168
 msgid "List of allowed emails to check against the customer's billing email when an order is placed. Separate email addresses with commas."
 msgstr "فهرست ایمیل های مجاز برای بررسی در برابر ایمیل های صورت حساب مشتری در هنگامی که سفارش ثبت می شود. ایمیل ها را با کاما ,ویرگول انگلیسی, جداسازی کنید."
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:178
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:182
 msgid "Usage limit per coupon"
 msgstr "محدودیت استفاده در کوپن"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:178
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:182
 msgid "How many times this coupon can be used before it is void."
 msgstr "تعداد دفعاتی که این کوپن قابل استفاده است."
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:184
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:188
 msgid "Limit usage to X items"
 msgstr "محدودیت استفاده به X مورد"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:184
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:188
 msgid "The maximum number of individual items this coupon can apply to when using product discounts. Leave blank to apply to all qualifying items in cart."
 msgstr "حداکثر تعداد آیتم های منحصر به فرد این کوپن می تواند به هنگام استفاده از تخفیف محصول اعمال می شود. در صورت خالی گذاشتن برای تمامی محصولات اعمال می گردد"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:190
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:194
 msgid "Usage limit per user"
 msgstr "محدودیت مصرف برای هر کاربر"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:190
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:194
 msgid "How many times this coupon can be used by an invidual user. Uses billing email for guests, and user ID for logged in users."
 msgstr "چند بار این کوپن می تواند توسط یک کاربر خاص استفاده می شود. با استفاده از ایمیل در صدور صورت حساب برای مهمانان، و ID کاربر برای کاربران وارد شده"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:227
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:231
 msgid "Coupon code already exists - customers will use the latest coupon with this code."
 msgstr "کد کوپن وجود دارد - مشتریان از این کد کوپن استفاده خواهند کرد"
 
@@ -2330,7 +2330,7 @@ msgstr "توسط %s"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:56
 msgid "Delete note"
-msgstr "پاک کردن یادداشت"
+msgstr "حذف یادداشت"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:63
 msgid "There are no notes yet."
@@ -2376,7 +2376,7 @@ msgstr "محصولات دانلود‌شدنی دسترسی به یک فایل �
 #: includes/admin/settings/class-wc-settings-products.php:46
 #: includes/admin/settings/class-wc-settings-products.php:244
 msgid "Inventory"
-msgstr "دارایی"
+msgstr "انبار"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:99
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:691
@@ -2485,7 +2485,7 @@ msgstr "بدون محدودیت"
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:228
 #: includes/admin/meta-boxes/views/html-variation-admin.php:236
 msgid "Leave blank for unlimited re-downloads."
-msgstr "برای نامحدود بودن دانلود مجدد خالی بگذارید"
+msgstr "برای نامحدود بودن دانلود دوباره، خالی بگذارید."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:234
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:699
@@ -2815,7 +2815,7 @@ msgstr "آمار &quot;مدیریت موجودی&quot;"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:697
 msgid "Downloadable products"
-msgstr "محصولات قابل دانلود"
+msgstr "محصولات دانلودی"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:698
 msgid "Download limit"
@@ -2898,7 +2898,7 @@ msgstr "انقضای دسترسی"
 
 #: includes/admin/meta-boxes/views/html-order-fee.php:20
 msgid "Fee"
-msgstr "هزینه نگه‌داری"
+msgstr "هزینه نگهداری"
 
 #: includes/admin/meta-boxes/views/html-order-fee.php:23
 msgid "Fee Name"
@@ -2996,7 +2996,7 @@ msgstr "افزایش مورد خط موجودی"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:219
 msgid "Add line item(s)"
-msgstr "افزودن خط مورد"
+msgstr "افزودن خط ایتم(ها)"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:221
 msgid "To edit this order change the status back to \"Pending\""
@@ -3192,7 +3192,7 @@ msgstr "تغییرات قیمت (الزامی)"
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:95
 msgid "Sale Price:"
-msgstr "قیمت فروش :"
+msgstr "قیمت فروش فوق العاده :"
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:95
 msgid "Cancel schedule"
@@ -3200,11 +3200,11 @@ msgstr "لغو زمان بندی"
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:101
 msgid "Sale start date:"
-msgstr "تاریخ شروع فروش"
+msgstr "تاریخ شروع فروش:"
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:105
 msgid "Sale end date:"
-msgstr "فروش و تاریخ:"
+msgstr "تاریخ پایان فروش:"
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:114
 msgid "Stock Qty:"
@@ -3379,7 +3379,7 @@ msgstr "نوسازی وضعیت"
 
 #: includes/admin/reports/class-wc-report-customer-list.php:175
 msgid "View orders"
-msgstr "مشاهده سفارشات"
+msgstr "نمایش سفارشات"
 
 #: includes/admin/reports/class-wc-report-customer-list.php:200
 msgid "Link previous orders"
@@ -3395,7 +3395,7 @@ msgstr "نام کاربری"
 
 #: includes/admin/reports/class-wc-report-customer-list.php:231
 msgid "Location"
-msgstr "محل فروشگاه"
+msgstr "جایگاه فروشگاه"
 
 #: includes/admin/reports/class-wc-report-customer-list.php:233
 msgid "Money Spent"
@@ -3441,7 +3441,7 @@ msgstr "تمام سفارشات میهمان"
 
 #: includes/admin/reports/class-wc-report-customers.php:321
 msgid "Signups"
-msgstr "ثبت نام ها"
+msgstr "نام نویسی ها"
 
 #: includes/admin/reports/class-wc-report-customers.php:328
 msgid "new users"
@@ -3473,7 +3473,7 @@ msgstr "همه"
 
 #: includes/admin/reports/class-wc-report-sales-by-category.php:254
 msgid "&larr; Choose a category to view stats"
-msgstr "&larr; انتخاب یک دسته برای مشاهده آمارها"
+msgstr "&larr; انتخاب یک دسته برای نمایش آمارها"
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:275
 msgid "%s average daily sales"
@@ -3554,7 +3554,7 @@ msgstr "%s خرید برای موارد انتخاب شده"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:137
 msgid "Showing reports for:"
-msgstr "مشاهده گزارش برای:"
+msgstr "نمایش گزارش برای:"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:169
 msgid "Reset"
@@ -3584,7 +3584,7 @@ msgstr "بیشترین درآمد"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:384
 msgid "&larr; Choose a product to view stats"
-msgstr "&larr; انتخاب محصول برای مشاهده آمارها"
+msgstr "&larr; انتخاب محصول برای نمایش آمارها"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:490
 msgid "Sales amount"
@@ -3698,7 +3698,7 @@ msgstr "برگه حساب من "
 #: includes/admin/settings/class-wc-settings-checkout.php:116
 #: includes/admin/settings/class-wc-settings-checkout.php:127
 msgid "Page contents:"
-msgstr "محتویات صفحه:"
+msgstr "محتویات برگه:"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:58
 msgid "My Account Endpoints"
@@ -3706,7 +3706,7 @@ msgstr "نقطه پایانی حساب کاربری من"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:58
 msgid "Endpoints are appended to your page URLs to handle specific actions on the accounts pages. They should be unique."
-msgstr "نقطه پایانی به آدرس صفحه افزوده شده که مسئولیت رسیدگی به اقدامات خاص در صفحات حساب می باشد. آنها باید منحصر به فرد باشند."
+msgstr "نقطه پایانی به آدرس برگه افزوده شده که مسئولیت رسیدگی به اقدامات خاص در صفحات حساب می باشد. آنها باید منحصر به فرد باشند."
 
 #: includes/admin/settings/class-wc-settings-accounts.php:61
 msgid "View Order"
@@ -3714,7 +3714,7 @@ msgstr "نمایش سفارش"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:62
 msgid "Endpoint for the My Account &rarr; View Order page"
-msgstr "نقطه پایانی حساب کاربری من &rarr; برگه مشاهده سفارش"
+msgstr "نقطه پایانی حساب کاربری من &rarr; برگه نمایش سفارش"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:70
 msgid "Edit Account"
@@ -3746,11 +3746,11 @@ msgstr "خروج از سيستم"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:98
 msgid "Endpoint for the triggering logout. You can add this to your menus via a custom link: yoursite.com/?customer-logout=true"
-msgstr "مسیر پایانی آدرس برای خروج کاربران را تعیین کنید. شما می توانید با افزودن این لینک به منو های وب سایت یک مسیر دلخواه برای خروج ایجاد کنید. مانند:woocommerce.ir/?customer-logout=true"
+msgstr "مسیر پایانی آدرس برای خروج کاربران را تعیین کنید. شما می توانید با افزودن این لینک به منو های وب سایت یک مسیر دلخواه برای خروج بسازید. مانند:woocommerce.ir/?customer-logout=true"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:107
 msgid "Registration Options"
-msgstr "گزینه های ثبت نام"
+msgstr "گزینه های نام نویسی"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:110
 msgid "Enable Registration"
@@ -3758,11 +3758,11 @@ msgstr "فعال سازی عضویت"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:111
 msgid "Enable registration on the \"Checkout\" page"
-msgstr "اجازه ثبت نام در صفحه پرداخت"
+msgstr "اجازه نام نویسی در برگه پرداخت"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:120
 msgid "Enable registration on the \"My Account\" page"
-msgstr "اجازه ثبت نام در صفحه \"حساب کاربری من\""
+msgstr "اجازه نام نویسی در برگه \"حساب کاربری من\""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:129
 msgid "Display returning customer login reminder on the \"Checkout\" page"
@@ -3770,15 +3770,15 @@ msgstr "نمایش یاد آوری ورود مشتری در برگه \"سفار�
 
 #: includes/admin/settings/class-wc-settings-accounts.php:138
 msgid "Account Creation"
-msgstr "ایجاد حساب کاربری"
+msgstr "ساخت حساب کاربری"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:139
 msgid "Automatically generate username from customer email"
-msgstr "ساخت اتوماتیک نام کاربری از ایمیل مشتری"
+msgstr "ساخت خودکار نام کاربری از ایمیل مشتری"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:148
 msgid "Automatically generate customer password"
-msgstr "ساخت گذرواژه اتوماتیک برای حساب مشتری"
+msgstr "ساخت گذرواژه خودکار برای حساب مشتری"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:44
 msgid "Checkout Options"
@@ -3806,7 +3806,7 @@ msgstr "فعال كردن خريد بدون عضويت"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:83
 msgid "Allows customers to checkout without creating an account."
-msgstr "اجازه به مشتریان برای ثبت سفارش بدون نیاز به ثبت نام."
+msgstr "اجازه به مشتریان برای ثبت سفارش بدون نیاز به نام نویسی."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:92
 msgid "Force secure checkout"
@@ -3850,7 +3850,7 @@ msgstr "تکمیل پرداخت"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:150
 msgid "Endpoints are appended to your page URLs to handle specific actions during the checkout process. They should be unique."
-msgstr "نقطه پایانی به آدرس صفحه شما افزوده می شوند که مسئولیت رسیدگی به اقدامات خاص در طول فرایند پرداخت را دارند. آنها باید منحصر به فرد باشند."
+msgstr "نقطه پایانی به آدرس برگه شما افزوده می شوند که مسئولیت رسیدگی به اقدامات خاص در طول فرایند پرداخت را دارند. آنها باید منحصر به فرد باشند."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:153
 msgid "Pay"
@@ -3874,7 +3874,7 @@ msgstr "افزودن روش پرداخت"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:172
 msgid "Endpoint for the Checkout &rarr; Add Payment Method page"
-msgstr "نقطه پایانی برای پرداخت &rarr; اضافه کردن صفحه روش پرداخت"
+msgstr "نقطه پایانی برای پرداخت &rarr; افزودن برگه روش پرداخت"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:181
 msgid "Payment Gateways"
@@ -3902,11 +3902,11 @@ msgstr "ایمیل‌ها"
 
 #: includes/admin/settings/class-wc-settings-emails.php:43
 msgid "Email Options"
-msgstr "تنظیمات ایمیل"
+msgstr "پیکربندی ایمیل"
 
 #: includes/admin/settings/class-wc-settings-emails.php:70
 msgid "Email Sender Options"
-msgstr "تنظیمات ارسال ایمیل"
+msgstr "پیکربندی ارسال ایمیل"
 
 #: includes/admin/settings/class-wc-settings-emails.php:70
 msgid "The following options affect the sender (email address and name) used in WooCommerce emails."
@@ -3926,7 +3926,7 @@ msgstr "الگوی ایمیل"
 
 #: includes/admin/settings/class-wc-settings-emails.php:97
 msgid "This section lets you customise the WooCommerce emails. <a href=\"%s\" target=\"_blank\">Click here to preview your email template</a>. For more advanced control copy <code>woocommerce/templates/emails/</code> to <code>yourtheme/woocommerce/emails/</code>."
-msgstr "این بخش به شما اجازه سفارشی سازی ایمیل های ووکامرس را میدهد. <a href=\"%s\" target=\"_blank\"> اینجا را برای پیش نمایش ایمیل خود کلیک کنید </a>. برای تنظیمات پیشرفته <code>woocommerce/templates/emails/</code> را به <code>yourtheme/woocommerce/emails/</code> کپی کنید."
+msgstr "این بخش به شما اجازه سفارشی سازی ایمیل های ووکامرس را میدهد. <a href=\"%s\" target=\"_blank\"> اینجا را برای پیش نمایش ایمیل خود کلیک کنید </a>. برای پیکربندی پیشرفته <code>woocommerce/templates/emails/</code> را به <code>yourtheme/woocommerce/emails/</code> کپی کنید."
 
 #: includes/admin/settings/class-wc-settings-emails.php:100
 msgid "Header Image"
@@ -3986,7 +3986,7 @@ msgstr "گزینه های کلی "
 
 #: includes/admin/settings/class-wc-settings-general.php:53
 msgid "Base Location"
-msgstr "محل فروشگاه"
+msgstr "جایگاه فروشگاه"
 
 #: includes/admin/settings/class-wc-settings-general.php:54
 msgid "This is the base location for your business. Tax rates will be based on this country."
@@ -4019,7 +4019,7 @@ msgstr "آدرس پیش فرض خریدار"
 
 #: includes/admin/settings/class-wc-settings-general.php:89
 msgid "This option determines the customers default address (before they input their details)."
-msgstr "این تنظیمات آدرس پیش فرض مشتریان را تعیین می کنند ( قبل از وارد کردن جزییاتشان)."
+msgstr "این پیکربندی آدرس پیش فرض مشتریان را تعیین می کنند ( قبل از وارد کردن جزییاتشان)."
 
 #: includes/admin/settings/class-wc-settings-general.php:90
 msgid "Note: If you choose to Geolocate the user address, the %sMaxMind GeoLite Database%s will be periodically downloaded and stored in your wp-content directory."
@@ -4052,7 +4052,7 @@ msgstr "متن اعلان فروشگاه"
 
 #: includes/admin/settings/class-wc-settings-general.php:113
 msgid "This is a demo store for testing purposes &mdash; no orders shall be fulfilled."
-msgstr "این یک وبسایت دمو است و با هدف تست ایجاد شده است، هیچ‌یک از محصولات موجود در سایت برای فروش نبوده و امکان خرید از این وبسایت وجود ندارد."
+msgstr "این یک وبسایت دمو است و با هدف تست ساخته شده است، هیچ‌یک از محصولات موجود در سایت برای فروش نبوده و امکان خرید از این وبسایت وجود ندارد."
 
 #: includes/admin/settings/class-wc-settings-general.php:120
 msgid "API"
@@ -4064,16 +4064,16 @@ msgstr "فعال سازی REST API"
 
 #: includes/admin/settings/class-wc-settings-general.php:129
 msgid "Currency Options"
-msgstr "گزینه واحد پولی"
+msgstr "پیکربندی واحد پولی"
 
 #: includes/admin/settings/class-wc-settings-general.php:129
 msgid "The following options affect how prices are displayed on the frontend."
-msgstr "این تنظیمات نحوه نمایش قیمت در سایت را تعیین می‌کنند."
+msgstr "پیکربندی زیر، چگونگی نمایش قیمت در سایت را نشان می دهد."
 
 #: includes/admin/settings/class-wc-settings-general.php:132
 #: includes/admin/views/html-admin-page-status-report.php:408
 msgid "Currency"
-msgstr "ارز "
+msgstr "واحد پولی"
 
 #: includes/admin/settings/class-wc-settings-general.php:133
 msgid "This controls what currency prices are listed at in the catalog and which currency gateways will take payments in."
@@ -4142,7 +4142,7 @@ msgstr "نمایش"
 #: includes/admin/settings/class-wc-settings-products.php:47
 #: includes/admin/settings/class-wc-settings-products.php:362
 msgid "Downloadable Products"
-msgstr "محصولات قابل دانلود"
+msgstr "محصولات دانلودی"
 
 #: includes/admin/settings/class-wc-settings-products.php:85
 msgid "Shop & Product Pages"
@@ -4154,7 +4154,7 @@ msgstr "برگه فروشگاه"
 
 #: includes/admin/settings/class-wc-settings-products.php:93
 msgid "The base page can also be used in your <a href=\"%s\">product permalinks</a>."
-msgstr "صفحه پایه فروشگاه همچنین می تواند در <a href=\"%s\">پیوند محصولات</a> مورد استفاده قرار گیرد."
+msgstr "برگه پایه فروشگاه همچنین می تواند در <a href=\"%s\">پیوند محصولات</a> مورد استفاده قرار گیرد."
 
 #: includes/admin/settings/class-wc-settings-products.php:99
 msgid "This sets the base page of your shop - this is where your product archive will be."
@@ -4244,7 +4244,7 @@ msgstr "نگاره های محصول"
 
 #: includes/admin/settings/class-wc-settings-products.php:178
 msgid "These settings affect the display and dimensions of images in your catalog - the display on the front-end will still be affected by CSS styles. After changing these settings you may need to <a href=\"%s\">regenerate your thumbnails</a>."
-msgstr "این تنظیمات بر روی نمایش و ابعاد تصویر در کاتالوگ تاقیر می گذارند - نمایش نمای کاربر تحت تاثیر استایل های CSS خواهد بود. پس از تغییر چنین تنظیماتی شما ممکن است به <a href=\"%s\"> جهت ساخت دوباره بند انگشتی ها  </a> نیاز داشته باشید."
+msgstr "این پیکربندی بر روی نمایش و ابعاد تصویر در کاتالوگ تاقیر می گذارند - نمایش نمای کاربر تحت تاثیر استایل های CSS خواهد بود. پس از تغییر چنین تنظیماتی شما ممکن است به <a href=\"%s\"> جهت ساخت دوباره بند انگشتی ها  </a> نیاز داشته باشید."
 
 #: includes/admin/settings/class-wc-settings-products.php:183
 msgid "Catalog Images"
@@ -4260,7 +4260,7 @@ msgstr "تصویر محصول تک"
 
 #: includes/admin/settings/class-wc-settings-products.php:198
 msgid "This is the size used by the main image on the product page."
-msgstr "اندازه تصویر اصلی در صفحه محصول"
+msgstr "اندازه تصویر اصلی در برگه محصول"
 
 #: includes/admin/settings/class-wc-settings-products.php:211
 msgid "Product Thumbnails"
@@ -4268,7 +4268,7 @@ msgstr "تصویر بندانگشتی محصولات"
 
 #: includes/admin/settings/class-wc-settings-products.php:212
 msgid "This size is usually used for the gallery of images on the product page."
-msgstr "اندازه تصاویر کوچک موجود در صفحه محصولات"
+msgstr "اندازه تصاویر کوچک موجود در برگه محصولات"
 
 #: includes/admin/settings/class-wc-settings-products.php:225
 msgid "Product Image Gallery"
@@ -4280,7 +4280,7 @@ msgstr "فعال کردن لایت باکس برای عکسهای محصول"
 
 #: includes/admin/settings/class-wc-settings-products.php:229
 msgid "Include WooCommerce's lightbox. Product gallery images will open in a lightbox."
-msgstr "فعال کردن اسکریپت Lightbox به کاربر اجازه می‌دهد تصاویر و گالری‌های محصولات را با یک افکت جعبه نور جی‌کوئری مشاهده کند."
+msgstr "فعال کردن اسکریپت Lightbox به کاربر اجازه می‌دهد تصاویر و گالری‌های محصولات را با یک افکت جعبه نور جی‌کوئری نمایش کند."
 
 #: includes/admin/settings/class-wc-settings-products.php:251
 msgid "Manage Stock"
@@ -4304,11 +4304,11 @@ msgstr "اطلاع رسانی ها"
 
 #: includes/admin/settings/class-wc-settings-products.php:274
 msgid "Enable low stock notifications"
-msgstr "فعال کردن نوتیفیکیشن کم بودن موجودی انبار"
+msgstr "فعال کردن آگهی کم بودن موجودی انبار"
 
 #: includes/admin/settings/class-wc-settings-products.php:283
 msgid "Enable out of stock notifications"
-msgstr "فعال کردن نوتیفیکیشن خالی شدن انبار"
+msgstr "فعال کردن آگهی خالی شدن انبار"
 
 #: includes/admin/settings/class-wc-settings-products.php:292
 msgid "Notification Recipient"
@@ -4380,7 +4380,7 @@ msgstr "دانلودها نیازمند ورود هستند"
 
 #: includes/admin/settings/class-wc-settings-products.php:390
 msgid "This setting does not apply to guest purchases."
-msgstr "این تنظیمات برای خرید به صورت مهمان اعمال نمیشود"
+msgstr "این پیکربندی برای خرید به صورت مهمان اعمال نمیشود"
 
 #: includes/admin/settings/class-wc-settings-products.php:396
 msgid "Grant access to downloadable products after payment"
@@ -4549,7 +4549,7 @@ msgstr "شماره سفارش"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:249
 msgid "Automatic"
-msgstr "اتوماتیک"
+msgstr "خودکار"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:249
 msgid "The cheapest available shipping method will be selected by default."
@@ -4562,7 +4562,7 @@ msgstr "برای تغییر ترتیب نمایش روش های حمل و نقل
 #: includes/admin/settings/class-wc-settings-tax.php:39
 #: includes/admin/settings/views/settings-tax.php:9
 msgid "Tax Options"
-msgstr "تنظیمات مالیات"
+msgstr "پیکربندی مالیات"
 
 #: includes/admin/settings/class-wc-settings-tax.php:40
 msgid "Standard Rates"
@@ -4628,7 +4628,7 @@ msgstr "نرخ های مالیات برای کلاس \"%s\""
 
 #: includes/admin/settings/views/html-settings-tax.php:7
 msgid "Define tax rates for countries and states below. <a href=\"%s\">See here</a> for available alpha-2 country codes."
-msgstr "نرخ های مالیات را برای کشورها و ایالت ها تعریف کنید. <a href=\"%s\"> اینجا </a> برای کدهای کشورهای آلفا-2"
+msgstr "نرخ های مالیات را برای کشورها و استان ها تعریف کنید. <a href=\"%s\"> اینجا </a> برای کدهای کشورهای آلفا-2"
 
 #: includes/admin/settings/views/html-settings-tax.php:13
 msgid "Country&nbsp;Code"
@@ -4644,12 +4644,12 @@ msgstr "کد&nbsp;استان"
 
 #: includes/admin/settings/views/html-settings-tax.php:15
 msgid "A 2 digit state code, e.g. AL. Leave blank to apply to all."
-msgstr "کد ایالت های دو رقمی مثل آلبرتا. برای اعمال برای همه،"
+msgstr "کد 2 رقمی استان، همانند خوزستان\" KH \". برای بکار گیری همه، آن را پوچ بگذارید."
 
 #: includes/admin/settings/views/html-settings-tax.php:17
 #: includes/admin/settings/views/html-settings-tax.php:148
 msgid "ZIP/Postcode"
-msgstr "کدژ"
+msgstr "کدپستی"
 
 #: includes/admin/settings/views/html-settings-tax.php:17
 msgid "Postcode for this rule. Semi-colon (;) separate multiple values. Leave blank to apply to all areas. Wildcards (*) can be used. Ranges for numeric postcodes (e.g. 12345-12350) will be expanded into individual postcodes."
@@ -4772,7 +4772,7 @@ msgstr "نام صادقانه جهت تشخیص این وب هوک، به وب �
 
 #: includes/admin/settings/views/html-webhooks-edit.php:25
 msgid "The options are &quot;Active&quot; (delivers payload), &quot;Paused&quot; (does not deliver), or &quot;Disabled&quot; (does not deliver due delivery failures)."
-msgstr "تنظیمات &quot;فعال&quot; هستند (ارائه محموله)، &quot;متوقف شده است& (ارسال نمی شود)، یا &quot;غیرفعال&quot; شده ( به دلیل خطاهای حمل و نقل، ارسال نمی شود)."
+msgstr "پیکربندی &quot;فعال&quot; هستند (ارائه محموله)، &quot;متوقف شده است& (ارسال نمی شود)، یا &quot;غیرفعال&quot; شده ( به دلیل خطاهای حمل و نقل، ارسال نمی شود)."
 
 #: includes/admin/settings/views/html-webhooks-edit.php:42
 msgid "Select when the webhook will fire."
@@ -4860,7 +4860,7 @@ msgstr "محرمانه"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:103
 msgid "The Secret Key is used to generate a hash of the delivered webhook and provided in the request headers. This will default to the current API user's consumer secret if not provided."
-msgstr "کلید رمز جهت ایجاد یک رشته هش از وب هوک ارسال شده استفاده و در هدرهای درخواست شده فراهم می شود. و اگر فراهم نکردید، رمز مشتری کاربران API کنونی ، پیش فرض خواهد شد."
+msgstr "کلید رمز جهت ساخت یک رشته هش از وب هوک ارسال شده استفاده و در هدرهای درخواست شده فراهم می شود. و اگر فراهم نکردید، رمز مشتری کاربران API کنونی ، پیش فرض خواهد شد."
 
 #: includes/admin/settings/views/html-webhooks-edit.php:116
 msgid "Webhook Actions"
@@ -4999,7 +4999,7 @@ msgstr "مورد"
 
 #: includes/admin/views/html-admin-page-addons.php:21
 msgid "Browse all extensions"
-msgstr "مشاهده همه افزونه ها"
+msgstr "نمایش همه افزونه ها"
 
 #: includes/admin/views/html-admin-page-addons.php:27
 msgid "Popular"
@@ -5059,7 +5059,7 @@ msgstr "فایل لاگ: %s (%s)"
 
 #: includes/admin/views/html-admin-page-status-logs.php:33
 msgid "There are currently no logs to view."
-msgstr "در حال حاضر هیچ Log جهت مشاهده وجود ندارد"
+msgstr "در حال حاضر هیچ Log جهت نمایش وجود ندارد"
 
 #: includes/admin/views/html-admin-page-status-report.php:13
 msgid "Please copy and paste this information in your ticket when contacting support:"
@@ -5087,7 +5087,7 @@ msgstr "وردپرس حافظ محیط زیست"
 
 #: includes/admin/views/html-admin-page-status-report.php:30
 msgid "Home URL"
-msgstr "لینک صفحه اصلی"
+msgstr "لینک برگه خانه"
 
 #: includes/admin/views/html-admin-page-status-report.php:31
 msgid "The URL of your site's homepage."
@@ -5353,7 +5353,7 @@ msgstr "افزونه های فعال"
 
 #: includes/admin/views/html-admin-page-status-report.php:336
 msgid "Visit plugin homepage"
-msgstr "مشاهده خانه افزونه"
+msgstr "نمایش خانه افزونه"
 
 #: includes/admin/views/html-admin-page-status-report.php:364
 msgid "Network enabled"
@@ -5493,7 +5493,7 @@ msgstr "چه چیزی نمایش شود یا اینکه پوسته جاری یک
 
 #: includes/admin/views/html-admin-page-status-report.php:592
 msgid "If you're modifying WooCommerce or a parent theme you didn't build personally we recommend using a child theme. See: <a href=\"%s\" target=\"_blank\">How to create a child theme</a>"
-msgstr "اگر شما در حال ویرایش و شخصی سازی ووکامرس یا پوسته والد هستید پیشنهاد می کنیم از پوسته کودک استفاده کنید. مشاهده کنید: <a href=\"%s\" target=\"_blank\">چگونه یک پوسته کودک ایجاد کنیم</a>"
+msgstr "اگر شما در حال ویرایش و شخصی سازی ووکامرس یا پوسته والد هستید پیشنهاد می کنیم از پوسته کودک استفاده کنید. نمایش کنید: <a href=\"%s\" target=\"_blank\">چگونه یک پوسته کودک ساخت کنیم</a>"
 
 #: includes/admin/views/html-admin-page-status-report.php:600
 msgid "Parent Theme Name"
@@ -5734,7 +5734,7 @@ msgstr "ایا میخواهید به ووکامرس کمک کنید؟ به ما 
 
 #: includes/admin/views/html-notice-tracking.php:13
 msgid "No, do not bother me again"
-msgstr "نه ، لطفا مجددا مزاحم نشو"
+msgstr "نه ، خواهشمندم دوباره مزاحم نشو"
 
 #: includes/admin/views/html-notice-translation-upgrade.php:12
 msgid "<strong>WooCommerce Translation Available</strong> &#8211; Install or update your <code>%s</code> translation to version <code>%s</code>."
@@ -5783,7 +5783,7 @@ msgstr "http://woocommerce.ir/"
 
 #. Description of the plugin/theme
 msgid "An e-commerce toolkit that helps you sell anything. Beautifully."
-msgstr "یک افزونه رایگان برای ایجاد فروشگاه همه فن حریف در وردپرس"
+msgstr "یک افزونه رایگان برای ساخت فروشگاه همه فن حریف در وردپرس"
 
 #. Author of the plugin/theme
 msgid "WooThemes"
@@ -5806,7 +5806,7 @@ msgstr "%qty% نتیجه در دسترس است. با کلیدهای بالا و
 #: includes/admin/class-wc-admin-assets.php:104
 msgctxt "enhanced select"
 msgid "No matches found"
-msgstr "یکسان یافت نشد"
+msgstr "یافت نشد"
 
 #: includes/admin/class-wc-admin-assets.php:105
 msgctxt "enhanced select"
@@ -5907,13 +5907,13 @@ msgctxt "placeholder"
 msgid "YYYY-MM-DD"
 msgstr "YYYY-MM-DD"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:178
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:190
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:182
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:194
 msgctxt "placeholder"
 msgid "Unlimited usage"
 msgstr "استفاده نامحدود"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:184
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:188
 msgctxt "placeholder"
 msgid "Apply to all qualifying items in cart"
 msgstr "اعمال برای تمام موارد انتخابی در سبد خرید"

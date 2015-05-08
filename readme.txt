@@ -50,6 +50,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 
 
 == Changelog ==
+= 2.3.8 =
+* فارسی سازی عبارات جدید برای ووکامرس 2.3.8
 = 2.3.7 =
 * فارسی سازی عبارات جدید برای ووکامرس 2.3.7
 = 2.2.10 =
@@ -66,6 +68,8 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 * First version
 
 == Upgrade Notice ==
+= 2.3.8 =
+* افزوده شدن واحد پولی هزار تومان و ترجمه عبارات تازه
 = 2.3.7 =
 * فارسی سازی عبارات جدید برای ووکامرس 2.3.7
 = 2.2.10 =

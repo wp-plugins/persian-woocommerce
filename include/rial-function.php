@@ -10,6 +10,7 @@ function add_my_currency( $currencies ) {
 
 $currencies['IRR'] = __( 'ریال', 'woocommerce' );
 $currencies['IRT'] = __( 'تومان', 'woocommerce' );
+$currencies['IRHT'] = __( 'هزار تومان', 'woocommerce' );
 
 return $currencies;
 
@@ -25,6 +26,7 @@ switch( $currency ) {
 
 case 'IRR': $currency_symbol = 'ریال'; break;
 case 'IRT': $currency_symbol = 'تومان'; break;
+case 'IRHT': $currency_symbol = 'هزار تومان'; break;
 
 }
 
