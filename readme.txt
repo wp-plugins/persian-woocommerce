@@ -1,5 +1,6 @@
 ﻿=== Persian Woocommerce ===
 author: Persian Woocommerce
+Contributors: Persianscript, hannanstd
 author URI: http://www.woocommerce.ir/
 Donate link: http://woocommerce.ir/donate.html
 plugin URI: http://www.woocommerce.ir/download.html
@@ -33,6 +34,8 @@ This plugin extends the WooCommerce shop plugin with complete Persian(Farsi) lan
 - واحد پولی ریال و تومان را به واحد های پولی اضافه کنید
 - لیست استان های ایران را اضافه کنید
 - ووکامرس را به صورت کامل فارسی کنید
+- افزوده شدن لیست شهر های ایران
+- راست چین سازی بخش مدیریت فروشگاه
 - و...
 
 == Installation ==
