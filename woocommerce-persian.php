@@ -4,7 +4,7 @@ Contributors: Persianscript
 Plugin Name: ووکامرس پارسی
 Plugin URI: http://woocommerce.ir
 Description: بسته فارسی ساز ووکامرس پارسی به راحتی سیستم فروشگاه ساز ووکامرس را فارسی می کند. با فعال سازی افزونه ، واحد پولی ریال و تومان ایران و همچنین لیست استان های ایران به افزونه افزوده می شوند. پشتیبانی در <a href="http://www.woocommerce.ir/" target="_blank">ووکامرس پارسی</a>.
-Version: 2.3.9
+Version: 2.3.9.1
 Requires at least: 3.9
 Author: ووکامرس فارسی
 Author URI: http://www.woocommerce.ir
@@ -118,3 +118,10 @@ function uninstall_woo_iran_cities() {
 	$table = $wpdb->prefix . 'Woo_Iran_Cities_By_HANNANStd';
 	$wpdb->query("DROP TABLE IF EXISTS $table");
 }
+
+function persianwoo_admin_notice(){
+    echo '<div class="updated">
+       <p>برای تکمیل بروزرسانی بسته فارسی ساز ووکامرس لطفا راهنما را مطالعه نمایید. <a href="http://forum.persianscript.ir/topic/15912-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%A8%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D8%A8%D8%B3%D8%AA%D9%87-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D9%88%D9%88%DA%A9%D8%A7%D9%85%D8%B1%D8%B3-%D8%A7%D8%B2-238-%D8%A8%D9%87-%D9%86%D8%B3/" target="_blank"><strong>اینجا کلیک کنید</strong></a>.</p>
+    </div>';
+}
+add_action('admin_notices', 'persianwoo_admin_notice');
