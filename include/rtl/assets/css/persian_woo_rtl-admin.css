@@ -1,0 +1,147 @@
+#tiptip_holder {
+  right: auto;
+  left: 0;
+}
+
+#tiptip_arrow,
+#tiptip_arrow_inner {
+  right: 50%;
+  margin-right: -6px;
+}
+
+.chosen-rtl {
+  text-align: right;
+}
+
+.chosen-rtl .chosen-single {
+  padding: 0 8px 0 0;
+}
+
+.chosen-rtl .chosen-single span {
+  margin-right: 0;
+  margin-left: 26px;
+  direction: rtl;
+}
+
+.chosen-rtl .chosen-single-with-deselect span {
+  margin-left: 38px;
+}
+
+.chosen-rtl .chosen-single div {
+  right: auto;
+  left: 3px;
+}
+
+.chosen-rtl .chosen-single abbr {
+  right: auto;
+  left: 26px;
+}
+
+.chosen-rtl .chosen-choices li {
+  float: right;
+}
+
+.chosen-rtl .chosen-choices li.search-field input[type=text] {
+  direction: rtl;
+}
+
+.chosen-rtl .chosen-choices li.search-choice {
+  margin: 3px 5px 3px 0;
+  padding: 3px 5px 3px 19px;
+}
+
+.chosen-rtl .chosen-choices li.search-choice .search-choice-close {
+  right: auto;
+  left: 4px;
+}
+
+.chosen-rtl .chosen-drop,
+.chosen-rtl.chosen-container-single-nosearch .chosen-search {
+  left: 9999px;
+}
+
+.chosen-rtl.chosen-container-single .chosen-results {
+  margin: 0 0 4px 4px;
+  padding: 0 4px 0 0;
+}
+
+.chosen-rtl .chosen-results li.group-option {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div {
+  border-right: none;
+}
+
+.chosen-rtl .chosen-search input[type=text] {
+  padding: 4px 5px 4px 20px;
+  background: url(../images/chosen-sprite.png) -30px -20px no-repeat #fff;
+  background: url(../images/chosen-sprite.png) -30px -20px no-repeat,-o-linear-gradient(#eee 1%,#fff 15%);
+  background: url(../images/chosen-sprite.png) -30px -20px no-repeat,0 0,0 0,1%,15% #fff;
+  direction: rtl;
+}
+
+.chosen-rtl.chosen-container-single .chosen-single div b {
+  background-position: 6px 2px;
+}
+
+.chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b {
+  background-position: -12px 2px;
+}
+
+html[dir=rtl] .select2-container .select2-choice {
+  padding: 0 8px 0 0;
+}
+
+html[dir=rtl] .select2-container .select2-choice>.select2-chosen {
+  margin-left: 26px;
+  margin-right: 0;
+}
+
+html[dir=rtl] .select2-container .select2-choice .select2-arrow {
+  left: 0;
+  right: auto;
+  border-radius: 3px 0 0 3px;
+}
+
+html[dir=rtl] .select2-search input {
+  padding: 4px 5px 4px 20px;
+  background: url(../images/select2.png) -37px -22px no-repeat #fff;
+}
+
+html[dir=rtl] .select2-dropdown-open .select2-choice .select2-arrow {
+  border-right: none;
+}
+
+html[dir=rtl] .select2-dropdown-open .select2-choice .select2-arrow b {
+  background-position: -16px 1px;
+}
+
+html[dir=rtl] .select2-results {
+  padding: 0 4px 0 0;
+  margin: 4px 0 4px 4px;
+}
+
+html[dir=rtl] .select2-container-multi .select2-choices {
+  padding: 0 0 0 5px;
+}
+
+html[dir=rtl] .select2-container-multi .select2-choices li {
+  float: right;
+}
+
+html[dir=rtl] .select2-container-multi .select2-choices .select2-search-choice {
+  margin: 3px 5px 3px 0;
+  padding: 5px 24px 5px 8px;
+}
+
+html[dir=rtl] .select2-search-choice-close {
+  right: auto;
+  left: 7px;
+}
+
+html[dir=rtl] .select2-container-multi .select2-search-choice-close {
+  left: auto;
+  right: 7px;
+}
