@@ -4,7 +4,7 @@ Contributors: Persianscript
 Plugin Name: ووکامرس پارسی
 Plugin URI: http://woocommerce.ir
 Description: بسته فارسی ساز ووکامرس پارسی به راحتی سیستم فروشگاه ساز ووکامرس را فارسی می کند. با فعال سازی افزونه ، واحد پولی ریال و تومان ایران و همچنین لیست استان های ایران به افزونه افزوده می شوند. پشتیبانی در <a href="http://www.woocommerce.ir/" target="_blank">ووکامرس پارسی</a>.
-Version: 2.3.9.1
+Version: 2.3.9.2
 Requires at least: 3.9
 Author: ووکامرس فارسی
 Author URI: http://www.woocommerce.ir
@@ -15,7 +15,8 @@ require_once ( dirname(__FILE__) .'/replacetext.php');
 require_once ( dirname(__FILE__) .'/include/widget.php');
 require_once ( dirname(__FILE__) .'/include/admin.php');
 require_once ( dirname(__FILE__) .'/include/rtl.php');
-require_once ( dirname(__FILE__) .'/include/iran-cities/iran_cities.php');
+if ( get_option( 'woocommerce_iran_cities' ) == 'yes' )
+	require_once ( dirname(__FILE__) .'/include/iran-cities/iran_cities.php');
 class PersianWooommercePlugin {
 	/**
 	 * The current langauge
@@ -30,6 +31,7 @@ class PersianWooommercePlugin {
 		// Filters and actions
 		add_action( 'plugins_loaded', array( $this, 'load_mo_file' ) );
 		add_action( 'activated_plugin',       array( $this, 'activated_plugin' ) );
+		add_filter( 'woocommerce_general_settings', array( $this, 'add_iran_cities_enable_settings') );
 	}
 
 	public function activated_plugin() {
@@ -58,7 +60,9 @@ class PersianWooommercePlugin {
 			$this->is_persian = ( ICL_LANGUAGE_CODE == 'fa' );
 		}
 		
-		if ( $this->is_persian ) {
+		$curLang = substr(get_bloginfo( 'language' ), 0, 2);
+	
+		if ( $this->is_persian || strtolower($curLang) == 'fa' ) {
 			
 			if ( is_admin() )
 				load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/admin-fa_IR.mo' );
@@ -66,13 +70,68 @@ class PersianWooommercePlugin {
 			load_textdomain( 'woocommerce', $dir . 'languages/woocommerce/fa_IR.mo' );
 		}
 	}
+	
+	public function add_iran_cities_enable_settings( $settings ) {
+		$updated_settings = array();
+		foreach ( $settings as $section ) {
+			if ( isset( $section['id'] ) && 'general_options' == $section['id'] &&
+			isset( $section['type'] ) && 'sectionend' == $section['type'] ) {
+				$updated_settings[] = array(
+					'name'     => __( 'فعالسازی شهرهای ایران' ),
+					'id'       => 'woocommerce_iran_cities',
+					'type'     => 'checkbox',
+					'std'      => '1',  // WC < 2.0
+					'default'  => '1',  // WC >= 2.0
+					'desc'     => __( 'فعالسازی شهرهای ایران در صفحه تسویه حساب ( نسخه آزمایشی )' ),
+				);						
+			}
+			$updated_settings[] = $section;
+		}
+		return $updated_settings;
+	}
 
 }
 global $woocommerce_persian;
 $woocommerce_persian = new PersianWooommercePlugin( __FILE__ );
 
 
+add_action( 'plugins_loaded', 'persian_woo_plugin_loaded' );
+function persian_woo_plugin_loaded() {
+	if ( get_option( 'is_cities_installed') == 'yes' ) 
+		return;
+	
+	global $wpdb;
+	$Woo_Iran_Cities_By_HANNANStd = $wpdb->prefix . 'Woo_Iran_Cities_By_HANNANStd';
+	if($wpdb->get_var("show tables like '$Woo_Iran_Cities_By_HANNANStd'") != $Woo_Iran_Cities_By_HANNANStd) {	
+		$sql_cities = "CREATE TABLE IF NOT EXISTS " . $Woo_Iran_Cities_By_HANNANStd . " (
+		`id` mediumint(9) NOT NULL AUTO_INCREMENT,
+		`state` tinytext NOT NULL,
+		`city` tinytext NOT NULL,
+		UNIQUE KEY id (id)
+		) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;";
+		require_once (ABSPATH . 'wp-admin/includes/upgrade.php');
+		dbDelta($sql_cities);
+		$iran_city_file = plugin_dir_path( __FILE__ ). '/include/iran-cities/data/iran_cities.csv';
+		$lines =  file($iran_city_file);
+		foreach( (array) $lines as $line_num => $line) {
+			$row = explode(",",$line);
+			$len = sizeof($row);
+			for($i=0;$i<$len;$i++){
+				$row[$i] = sanitize_text_field($row[$i]);
+			}
+			$iran_city_fields = array (
+				'state' => $row[0],
+				'city' => $row[1]
+			);
+			$wpdb->insert( $Woo_Iran_Cities_By_HANNANStd ,$iran_city_fields);
+		}
+	}
+	update_option( 'is_cities_installed', 'yes' );
+}
+
+
 function persian_woo_install() {
+	update_option( 'redirect_to_woo_persian_about_page', 'no' );
 	global $wpdb;
 	$persian_woocommerce_table = $wpdb -> prefix . "woocommerce_ir";
 	$woocommerce_ir_sql = "CREATE TABLE IF NOT EXISTS $persian_woocommerce_table (
@@ -83,45 +142,31 @@ function persian_woo_install() {
       ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;";
 	require_once (ABSPATH . 'wp-admin/includes/upgrade.php');
 	dbDelta($woocommerce_ir_sql);
-	
-	$Woo_Iran_Cities_By_HANNANStd = $wpdb->prefix . 'Woo_Iran_Cities_By_HANNANStd';
-	if($wpdb->get_var("show tables like '$Woo_Iran_Cities_By_HANNANStd'") != $Woo_Iran_Cities_By_HANNANStd) {	
-		$sql_cities = "CREATE TABLE " . $Woo_Iran_Cities_By_HANNANStd . " (
-		`id` mediumint(9) NOT NULL AUTO_INCREMENT,
-		`state` tinytext NOT NULL,
-		`city` tinytext NOT NULL,
-		UNIQUE KEY id (id)
-		) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;";
-		dbDelta($sql_cities);
-        $iran_city_file = plugin_dir_path( __FILE__ ). '/include/iran-cities/data/iran_cities.csv';
-        $lines =  file($iran_city_file);
-		foreach( (array) $lines as $line_num => $line) {
-			$row = explode(",",$line);
-			$len = sizeof($row);
-			for($i=0;$i<$len;$i++){
-				$row[$i] = sanitize_text_field($row[$i]);
-			}
-			$iran_city_fields = array (
-				'state' => $row[0],
-				'city' => $row[1]
-            );
-			$wpdb->insert( $Woo_Iran_Cities_By_HANNANStd ,$iran_city_fields);
-		}
-	}
 }
 register_activation_hook(__FILE__, 'persian_woo_install');
 
-
-register_deactivation_hook( __FILE__, 'uninstall_woo_iran_cities' );
 function uninstall_woo_iran_cities() {
+	update_option( 'is_cities_installed', 'no' );
+	update_option( 'redirect_to_woo_persian_about_page', 'no' );
 	global $wpdb;
 	$table = $wpdb->prefix . 'Woo_Iran_Cities_By_HANNANStd';
 	$wpdb->query("DROP TABLE IF EXISTS $table");
 }
+register_deactivation_hook( __FILE__, 'uninstall_woo_iran_cities' );
 
-function persianwoo_admin_notice(){
-    echo '<div class="updated">
-       <p>برای تکمیل بروزرسانی بسته فارسی ساز ووکامرس لطفا راهنما را مطالعه نمایید. <a href="http://forum.persianscript.ir/topic/15912-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%A8%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D8%A8%D8%B3%D8%AA%D9%87-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D9%88%D9%88%DA%A9%D8%A7%D9%85%D8%B1%D8%B3-%D8%A7%D8%B2-238-%D8%A8%D9%87-%D9%86%D8%B3/" target="_blank"><strong>اینجا کلیک کنید</strong></a>.</p>
-    </div>';
+function redirect_to_woo_persian_about_page() {
+	if ( get_option( 'redirect_to_woo_persian_about_page' ) != 'yes') {
+		update_option( 'redirect_to_woo_persian_about_page', 'yes' );
+		ob_start();
+		ob_end_flush();
+		ob_end_clean();
+		if (!headers_sent()) {
+			wp_redirect( admin_url( 'admin.php?page=persian-woocommerce' ) );
+		}
+		else {
+			$redirect_page = admin_url( 'admin.php?page=persian-woocommerce' );
+			echo "<script type='text/javascript'>window.onload = function () { top.location.href = '" . $redirect_page . "'; };</script>";
+		}
+    }
 }
-add_action('admin_notices', 'persianwoo_admin_notice');
+add_action('admin_init', 'redirect_to_woo_persian_about_page');

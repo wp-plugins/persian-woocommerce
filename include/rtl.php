@@ -15,13 +15,15 @@
       $screen = get_current_screen();
 
       // admin.css
-      if ( in_array( $screen->id, wc_get_screen_ids() ) ) {
-        wp_dequeue_style( 'woocommerce_admin_styles' );
-        wp_dequeue_style( 'woocommerce_admin_styles_rtl' );
-        wp_enqueue_style( 'woocommerce_admin_styles_rtl', plugins_url('/rtl/assets/css/admin.css',__FILE__), array(), WC_VERSION );
-        wp_enqueue_style( 'persian_woo_rtl_admin_styles', plugins_url('/rtl/assets/css/persian_woo_rtl-admin.css',__FILE__), array(), WC_VERSION );
-      }
 
+	if ( function_exists('wc_get_screen_ids') ) {
+		if ( in_array( $screen->id, wc_get_screen_ids() ) ) {
+			wp_dequeue_style( 'woocommerce_admin_styles' );
+			wp_dequeue_style( 'woocommerce_admin_styles_rtl' );
+			wp_enqueue_style( 'woocommerce_admin_styles_rtl', plugins_url('/rtl/assets/css/admin.css',__FILE__), array(), WC_VERSION );
+			wp_enqueue_style( 'persian_woo_rtl_admin_styles', plugins_url('/rtl/assets/css/persian_woo_rtl-admin.css',__FILE__), array(), WC_VERSION );
+		}
+	}
       // dashboard.css
       if ( in_array( $screen->id, array( 'dashboard' ) ) ) {
         wp_dequeue_style( 'woocommerce_admin_dashboard_styles' );

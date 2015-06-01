@@ -14,7 +14,7 @@ require_once( ABSPATH . 'wp-admin/admin-header.php' );
 			<h1>به دنیای ووکامرس فارسی خوش آمدید!</h1>
 			<div class="about-text">همین الان فروشگاه خود با قدرت ووکامرس را ایجاد کنید و از امکانات فراوان آن لذت ببرید!
 			</div>
-			<div class="pw-badge">نگارش 1</div>
+			<div class="pw-badge">نگارش 2</div>
 
 			<h2 class="nav-tab-wrapper">
 				<a class="nav-tab nav-tab-active" href="http://woocommerce.ir" target="_blank">پشتیبان فارسی ووکامرس</a>
@@ -62,6 +62,19 @@ require_once( ABSPATH . 'wp-admin/admin-header.php' );
 				</div>
 			</div>
 			<div class="changelog">
+				<h3>اضافه شدن شهر های ایران - نسخه آزمایشی</h3>
+
+				<div class="feature-section col one-col" style="text-align:center">
+					<div class="last-feature">
+						<p>برای فعالسازی شهر های ایران مطابق تصویر زیر ، از تنظیمات همگانی ووکامرس گزینه شهرهای ایران را فعال نمایید .
+						<a href="<?php echo admin_url( 'admin.php?page=wc-settings#woocommerce_iran_cities' ); ?>">برای فعالسازی شهر های ایران کلیک کنید<a/>
+						</p>
+						<img title="شهرهای ایران" alt="شهرهای ایران" src="<?php echo plugins_url('/images/Iran_City.png',__FILE__); ?>">
+					</div>
+				</div>
+			</div>
+			
+			<div class="changelog">
 				<h3>پشتیبانی ووکامرس در ایران</h3>
 
 				<div class="feature-section col one-col">
@@ -74,8 +87,3 @@ require_once( ABSPATH . 'wp-admin/admin-header.php' );
 				
 			
 		</div>
-	
-	
-	
-	
-
